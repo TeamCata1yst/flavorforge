@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
 	return (
-		<nav className="bg-background p-4 md:px-24 flex justify-between inset-x-0 top-0 items-center">
+		<nav className="bg-background p-4 md:px-24 flex justify-center md:justify-between inset-x-0 top-0 items-center">
 			<a href="/" className="flex items-center">
 				<img src="/logo.svg" alt="Logo" className="h-16 w-16" />
 				<span className="text-xl font-semibold font-montserrat">
